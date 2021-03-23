@@ -2,13 +2,13 @@
 
 namespace Hose1021\Vote;
 
+use Hose1021\Vote\Events\CancelVoted;
+use Hose1021\Vote\Events\Voted;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Facades\Auth;
-use Hose1021\Vote\Events\CancelVoted;
-use Hose1021\Vote\Events\Voted;
 
 /**
  * Class Vote

@@ -2,10 +2,10 @@
 
 namespace Hose1021\Vote\Traits;
 
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Hose1021\Vote\Vote;
 use Hose1021\Vote\VoteItems;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
  * Trait Voter

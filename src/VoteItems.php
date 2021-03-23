@@ -18,7 +18,7 @@ final class VoteItems implements Stringable
 
     public function __construct(string $value)
     {
-        if (!in_array($value, self::getValues(), true)) {
+        if (! in_array($value, self::getValues(), true)) {
             throw new UnexpectValueException("Unexpect Value: {$value}");
         }
         $this->value = $value;

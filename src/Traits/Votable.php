@@ -3,8 +3,8 @@
 namespace Hose1021\Vote\Traits;
 
 use Hose1021\Vote\Exceptions\UnexpectValueException;
-use Illuminate\Database\Eloquent\Model;
 use Hose1021\Vote\VoteItems;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
