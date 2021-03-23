@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "hose1021/vote",
+    "description": "vote",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "Michael Hose",
+        "vote"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/hose1021/vote",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Michael Hose",
+            "email": "hose1021@gmail.com",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Michael Hose\\Vote\\": "src",
+            "Michael Hose\\Vote\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Michael Hose\\Vote\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Michael Hose\\Vote\\VoteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Vote": "Michael Hose\\Vote\\VoteFacade"
             }
         }
     },

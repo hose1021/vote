@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Michael Hose\Vote\Tests;
 
 class ExampleTest extends TestCase
 {
