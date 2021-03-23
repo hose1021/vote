@@ -1,2 +1,2 @@
 providers:
-  - Michael Hose\Vote\VoteServiceProvider
+  - hose1021\Vote\VoteServiceProvider

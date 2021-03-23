@@ -2,14 +2,14 @@
     "name": "hose1021/vote",
     "description": "vote",
     "keywords": [
-        "Michael Hose",
+        "Hose1021",
         "vote"
     ],
     "homepage": "https://github.com/hose1021/vote",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Hose",
+            "name": "Hose1021",
             "email": "hose1021@gmail.com",
             "role": "Developer"
         }
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Michael Hose\\Vote\\": "src",
-            "Michael Hose\\Vote\\Database\\Factories\\": "database/factories"
+            "Hose1021\\Vote\\": "src",
+            "Hose1021\\Vote\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Michael Hose\\Vote\\Tests\\": "tests"
+            "Hose1021\\Vote\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Michael Hose\\Vote\\VoteServiceProvider"
+                "Hose1021\\Vote\\VoteServiceProvider"
             ],
             "aliases": {
-                "Vote": "Michael Hose\\Vote\\VoteFacade"
+                "Vote": "Hose1021\\Vote\\VoteFacade"
             }
         }
     },
